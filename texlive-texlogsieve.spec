@@ -1,6 +1,6 @@
 Name:		texlive-texlogsieve
 Version:	64301
-Release:	1
+Release:	2
 Summary:	Filter and summarize LaTeX log files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texlogsieve
