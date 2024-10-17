@@ -3,7 +3,7 @@ Version:	64301
 Release:	2
 Summary:	Filter and summarize LaTeX log files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texlogsieve
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/texlogsieve
 License:	gpl3+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlogsieve.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlogsieve.doc.r%{version}.tar.xz
