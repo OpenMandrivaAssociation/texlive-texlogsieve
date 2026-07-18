@@ -1,5 +1,6 @@
 %global tl_name texlogsieve
 %global tl_revision 77351
+%global tl_bin_links texlogsieve:%{_texmfdistdir}/scripts/texlogsieve/texlogsieve
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(texlogsieve.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 texlogsieve reads a LaTeX log file (or the standard input if no file is
